@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    &__form-control{
+        margin-bottom: 20px;
+    }
+    &__form-control{
+        position: relative;
+    }
+    .error-border input {
+        border-color: red;
+       
+    }
+    small {
+        color:rgb(138, 87, 87);
+        position: absolute;
+        top: 90%;
+        left: 10%;
+    } 
+}
+
+

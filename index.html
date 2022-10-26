@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<div class="container">
+			
+			<form class="form" id="'form js--form-contorl">
+				<label class="form__form-control js--form-contorl">
+					<span>Имя</span>
+					<input
+						type="text"
+						name="username"
+            class="js--form-field"
+						data-name-req="Имя обязательное поле"
+						placeholder="Введите имя"
+					/>
+				</label>
+				<label class="form__form-control js--form-contorl">
+					<span>Почта</span>
+					<input
+						type="text"
+						name="email"
+            class="js--form-field"
+						data-email-req="Почта обязательное поле"
+						data-email="Проврте правильность email"
+						placeholder="Введите Почту"
+					/>
+				</label>
+
+				<label class="form__form-control js--form-contorl">
+					<span>Пароль</span>
+					<input
+						type="password"
+						name="password"
+            class="js--form-field"
+						data-password-req="Пароль обязательное поле"
+						data-password="Пароли должны совпадать"
+						data-min-length="5"
+						data-min-message="Для пароля должна быть не менее N символов"
+						placeholder="Введите пароль"
+					/>
+				</label>
+				<label class="form__form-control js--form-contorl">
+					<span>Пароль</span>
+					<input
+						type="password"
+						name="confirm-password"
+            class="js--form-field"
+						data-password-req="Пароль обязательное поле"
+						data-password="Пароли должны совпадать"
+						data-min-length="5"
+						data-min-message="Для пароля должна быть не менее N символов"
+						placeholder="Введите пароль"
+					/>
+				</label>
+
+				<button>Отправить</button>
+			</form>
+		</div>
+
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
